@@ -1,0 +1,9 @@
+{
+    "name": "PHP Event-Driven XML Parser",
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}
