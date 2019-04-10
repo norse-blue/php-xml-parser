@@ -33,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NorseBlue\\Xml\\": "src/"
+            "NorseBlue\\Xml\\Parser\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NorseBlue\\Xml\\Tests\\": "tests/"
+            "NorseBlue\\Xml\\Parser\\Tests\\": "tests/"
         },
         "files": [
             "tests/helpers.php"
