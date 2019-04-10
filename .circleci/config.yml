@@ -13,6 +13,7 @@ commands:
         steps:
             - run: sudo apt update
             - run: sudo apt full-upgrade
+            - run: sudo docker-php-ext-install xml
             - run: composer self-update
             - checkout
     install_php_dependencies:
