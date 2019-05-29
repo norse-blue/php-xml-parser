@@ -1,6 +1,6 @@
 <?php
 
-namespace NorseBlue\Xml\Parser\Tests;
+namespace NorseBlue\Xmlify\Tests;
 
 use \PHPUnit\Framework\TestCase as BaseTestCase;
 

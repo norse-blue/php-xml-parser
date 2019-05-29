@@ -1,13 +1,13 @@
 {
-    "name": "norse-blue/xml-parser",
-    "description": "PHP XML Parser",
-    "keywords": ["xml", "parser"],
-    "homepage": "https://norse.blue/open-source/php-xml-parser",
+    "name": "norse-blue/xmlify",
+    "description": "XML utilities",
+    "keywords": ["xml", "utiltiies", "parser", "data", "mapper"],
+    "homepage": "https://norse.blue/open-source/xmlify",
     "type": "project",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/norse-blue/php-xml-parser/issues",
-        "source": "https://github.com/norse-blue/php-xml-parser"
+        "issues": "https://github.com/norse-blue/xmlify/issues",
+        "source": "https://github.com/norse-blue/xmlify"
     },
     "authors": [
         {
@@ -23,8 +23,12 @@
         "optimize-autoloader": true
     },
     "require": {
-        "php": "^7.2",
-        "ext-simplexml": "*"
+        "php": "^7.3",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "myclabs/php-enum": "^1.7",
+        "norse-blue/prim": "^0.2.0"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.11.5",
@@ -33,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NorseBlue\\Xml\\Parser\\": "src/"
+            "NorseBlue\\Xmlify\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NorseBlue\\Xml\\Parser\\Tests\\": "tests/"
+            "NorseBlue\\Xmlify\\Tests\\": "tests/"
         },
         "files": [
             "tests/helpers.php"
